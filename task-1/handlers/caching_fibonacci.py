@@ -27,11 +27,3 @@ def caching_fibonacci() -> callable:
         except TypeError:
             return "Помилка даних: значення параметру повинно бути цілим числом, більшим за нуль"
     return fibonacci
-
-
-# Отримуємо функцію fibonacci
-fib = caching_fibonacci()
-
-# Використовуємо функцію fibonacci для обчислення чисел Фібоначчі
-print(fib(10))  # Виведе 55
-print(fib(15))  # Виведе 610
