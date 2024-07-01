@@ -8,4 +8,4 @@ from handlers.load_logs import load_logs
 
 
 __all__ = ["display_log_counts", "filter_logs_by_level",
-        "count_logs_by_level", "load_logs", "parse_log_line"]
+"count_logs_by_level", "load_logs", "parse_log_line"]
