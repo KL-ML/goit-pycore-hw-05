@@ -1,10 +1,12 @@
+"""A function that identifies all float numbers in the text and returns a generator."""
 import re
 
 def generator_numbers(text: str):
-    """A function that identifies all float numbers in the text and returns a generator.
+    """identifies all float numbers in the text.
 
     Args:
-        text (str): a string of text in which float numbers are written without errors, clearly separated by spaces on both sides.
+        text (str): a string of text in which float numbers are written without errors, 
+        clearly separated by spaces on both sides.
 
     Yields:
         float: a float number, a separate word, two decimal places

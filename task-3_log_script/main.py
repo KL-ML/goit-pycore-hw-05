@@ -7,6 +7,7 @@ from handlers import display_log_counts, load_logs, count_logs_by_level, filter_
 
 def main():
     """The main function of the script
+    
     Exeption (IndexError): Error when there are no arguments in the command line
     """
     try:
